@@ -3797,7 +3797,7 @@ denz.sendMessage(from, `*ʜɪ ʙʀᴏ ${pushname}*
 ┃𒈒 *ɴᴀᴍᴇ ᴜsᴇʀ* : ${pushname}
 ┃𒈒 *ɴᴀᴍᴇ ʙᴏᴛ* : ī.ᴀᴍ/ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩
 ┃𒈒 *ɴᴀᴍᴇ ᴏᴡɴᴇʀ* : ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩
-┃𒈒 *ᴄʀᴇᴀᴛᴏʀ* : @919605385305
+┃𒈒 *ᴄʀᴇᴀᴛᴏʀ* : @94771323434
 ┃𒈒 *sᴘᴇᴇᴅ* : 00065
 ┗━━𒆜
 *ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴀɴɴ ᴍᴡᴏɴᴇ*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "ꪶ͢𝑆𝐾𝑌𝐿𝐼𝑁𝐸ꫂ⁩",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg')}}})
@@ -3805,7 +3805,7 @@ break
 case 'donate':
 	gambar = fs.readFileSync('./denz.jpg')
 	teksnya = `╭───────────────𒆜
- | *ᴅᴏɴᴀᴛᴇ ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩ 🥂*
+ | *⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩ 🥂*
 ╰───────────────𒈒
 ╭───────────────𒆜
  | ᴀɴᴛʜᴀᴅᴀ ᴅᴏɴᴀᴛᴇ ᴄʜᴇʏᴀɴɴᴏ ?
@@ -4076,7 +4076,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ᴇʀʀᴏʀ-ᴀʟᴇʀᴛ* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "ꪶ͢ɴɪᴊɪɴ sᴇʀꫂ⁩",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919605385305?text=Hi Bro"}}})
+     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ᴇʀʀᴏʀ-ᴀʟᴇʀᴛ* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919605385305?text=Hi Bro"}}})
 	}
     }
     }
